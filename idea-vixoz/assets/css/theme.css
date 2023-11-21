@@ -9639,7 +9639,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-  background-color: #3011BC !important;
+  background-color: #FE7A15 !important;
 }
 
 .bg-secondary {
@@ -17611,9 +17611,9 @@ ul {
 
 .bg-offcanvas-right::before {
   position: absolute;
-  background: -webkit-gradient(linear, left top, right top, from(#7e11bc), to(#7e11bc));
-  background: -o-linear-gradient(left, #7e11bc, #7e11bc);
-  background: linear-gradient(90deg, #7e11bc, #7e11bc);
+  background: -webkit-gradient(linear, left top, right top, from(#FE7A15), to(#FE7A15));
+  background: -o-linear-gradient(left, #FE7A15, #FE7A15);
+  background: linear-gradient(90deg, #FE7A15, #FE7A15);
   content: "";
   height: 100%;
   width: 1000%;
