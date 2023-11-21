@@ -74,24 +74,25 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6 py-5 py-xl-5 py-xxl-5" >
-              <h3 class="display-3  fw-normal">Let’s make a reservation</h3>
-              <h1 class="display-3 text-primary fw-bold">Car rental in the world</h1>
+              <h3 class="display-3  fw-normal">Alquiler de Autos</h3>
+              <h1 class="display-3 text-primary fw-bold">En el Mundo</h1>
               <div class="pt-2">
                 <nav>
               
                   <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                       <form class="row g-4 mt-1">
-                        <div class="col-sm-6 col-md-6 col-xl-5">
+                        <div class="col-sm-12 col-md-12 col-xl-8">
                           <div class="input-group-icon">
                             <label  class="form-label visually-hidden" >Ciudad desde</label>
-                            <input id="apiom_fecha_desde_input" class="apiom_fecha_desde form-control input-box form-voyage-control" type="text" placeholder="From where" /><span class="nav-link-icon text-800 fs--1 input-box-icon"><i class="fas fa-map-marker-alt"></i></span>
+                            <input id="apiom_fecha_desde_input" class="apiom_fecha_desde form-control input-box form-voyage-control trn" type="text" placeholder="CIudad de Recogida" /><span class="nav-link-icon text-800 fs--1 input-box-icon"><i class="fas fa-map-marker-alt"></i></span>
                           </div>
+                         
                         </div>
-                        <div class="col-sm-6 col-md-6 col-xl-5">
+                        <div id="otra" class="col-sm-8 col-md-8 col-xl-8 accordion-collapse collapse otra">
                           <div class="input-group-icon">
                             <label class="form-label visually-hidden apiom_ciudad_hasta" >Ciudad hasta</label>
-                            <input  id="apiom_ciudad_hasta" class="form-control input-box form-voyage-control"  type="text" placeholder="To where" /><span class="nav-link-icon text-800 fs--1 input-box-icon"><i class="fas fa-map-marker-alt"> </i></span>
+                            <input  id="apiom_ciudad_hasta" class="form-control input-box form-voyage-control"  type="text" placeholder="Ciudad de Devolución" /><span class="nav-link-icon text-800 fs--1 input-box-icon"><i class="fas fa-map-marker-alt"> </i></span>
                           </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-xl-5">
@@ -100,7 +101,7 @@
                             <input class="form-control input-box form-voyage-control" id="apiom_fecha_desde" type="text" name="datefilter"  /><span class="nav-link-icon text-800 fs--1 input-box-icon"><i class="fas fa-calendar"></i></span>
                           </div>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-xl-5">
+                        <div class="col-sm-6 col-md-6 col-xl-3">
                           <div class="input-group-icon">
                             <input class="form-control input-box form-voyage-control" id="apiom_hora_desde" type="time" /><span class="nav-link-icon text-800 fs--1 input-box-icon"><i class="fas fa-clock"></i></span>
                           </div>
@@ -110,15 +111,21 @@
                             <input class="form-control input-box form-voyage-control" id="apiom_fecha_hasta" type="text" name="datefilter"  /><span class="nav-link-icon text-800 fs--1 input-box-icon"><i class="fas fa-calendar"></i></span>
                           </div>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-xl-5">
+                        <div class="col-sm-6 col-md-6 col-xl-3">
                           <div class="input-group-icon">
                             <input class="form-control input-box form-voyage-control" id="apiom_hora_hasta" type="time" /><span class="nav-link-icon text-800 fs--1 input-box-icon"><i class="fas fa-clock"></i></span>
                           </div>
                         </div>
-                        <div class="col-md-12 ">
+                        <div class="col-lg-12 ">
+                          <div class="form-check">
+                              <input class="form-check-input" id="flexCheckDefault2" type="checkbox" data-bs-toggle="collapse" data-bs-target="#otra">
+                              <label class="form-check-label text-dark check-formulario trn" for="flexCheckDefault2">Devolver el vehículo en una oficina distinta</label>
+                          </div>
+                    <!--   </div>
+                        <div class="col-md-12 "> -->
                           <div class="form-check">
                               <input class="form-check-input" type="checkbox" data-bs-toggle="collapse" data-bs-target="#codigo" aria-expanded="true" aria-controls="collapse6"> 
-                              <label class="form-check-label tc-primary  check-formulario trn" for="flexCheckDefault">Tengo un código promocional
+                              <label class="form-check-label text-dark check-formulario trn" for="flexCheckDefault">Tengo un código promocional
                               </label>
                             </div>
                             </div>
@@ -1020,12 +1027,12 @@
               <div class="col-6 col-sm-4 col-lg-6">
                 <div class="py-7"><img class="d-inline-block" src="assets/img/img/logo-flexways.png" alt="logo" />
                   <ul class="list-unstyled mt-4">
-                    <li class="mb-2"><a class="text-800 fw-bold text-decoration-none" href="#!">About Us</a></li>
-                    <li class="mb-2"><a class="text-800 fw-bold text-decoration-none" href="#!">Affiliations</a></li>
-                    <li class="mb-2"><a class="text-800 fw-bold text-decoration-none" href="#!">Sustainability</a></li>
-                    <li class="mb-2"><a class="text-800 fw-bold text-decoration-none" href="#!">Destinations</a></li>
+                    <li class="mb-2"><a class="text-800 fw-bold text-decoration-none" href="#!">Sobre Nosotros</a></li>
+                    <li class="mb-2"><a class="text-800 fw-bold text-decoration-none" href="#!">Afiliaciones</a></li>
+                    <li class="mb-2"><a class="text-800 fw-bold text-decoration-none" href="#!">Sostenibilidad</a></li>
+                    <li class="mb-2"><a class="text-800 fw-bold text-decoration-none" href="#!">Destinos</a></li>
                     <li class="mb-2"><a class="text-800 fw-bold text-decoration-none" href="#!">FAQs</a></li>
-                    <li class="mb-2"><a class="text-800 fw-bold text-decoration-none" href="#!">Terms & Conditions</a></li>
+                    <li class="mb-2"><a class="text-800 fw-bold text-decoration-none" href="#!">Terminos & Condiciones</a></li>
                   </ul>
                 </div>
               </div>
