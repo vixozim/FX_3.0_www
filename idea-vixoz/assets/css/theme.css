@@ -18571,6 +18571,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   border-bottom-color: #F59446;
 }
 
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: none;
+ 
+}
 /*-----------------------------------------------
 |   User Styles
 -----------------------------------------------*/
