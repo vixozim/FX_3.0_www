@@ -28,7 +28,7 @@
   --bs-white: #FFFEFE;
   --bs-gray: #869DB2;
   --bs-gray-dark: #607080;
-  --bs-primary: #3011BC;
+  --bs-primary: #F59446;
   --bs-secondary: #F59446;
   --bs-success: #19CC61;
   --bs-info: #00A1FC;
@@ -218,7 +218,7 @@ sup {
 }
 
 a {
-  color: #3011BC;
+  color: #607080;
   text-decoration: none;
 }
 
@@ -687,7 +687,8 @@ progress {
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) / 2);
   padding-left: calc(var(--bs-gutter-x) / 2);
-  margin-top: var(--bs-gutter-y);
+  /* margin-top: var(--bs-gutter-y); */
+  margin-top: 10px;
 }
 
 .col {
@@ -3504,8 +3505,8 @@ textarea.form-control-lg {
 
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(48, 17, 188, 0.25);
-  box-shadow: 0 0 0 0.25rem rgba(48, 17, 188, 0.25);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(37, 37, 37, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(37, 37, 37, 0.25);
 }
 
 .btn:disabled, .btn.disabled,
@@ -3563,8 +3564,8 @@ fieldset:disabled .btn {
 
 .btn-secondary:hover {
   color: #FFFEFE;
-  background-color: #d86812;
-  border-color: #cb6211;
+  background-color: #607080;
+  border-color: #607080;
 }
 
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
