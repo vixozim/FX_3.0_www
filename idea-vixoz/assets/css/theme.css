@@ -17608,7 +17608,7 @@ ul {
 
 .bg-offcanvas::before {
   position: absolute;
-  background: #3011bc;
+  background: #607080;
   content: "";
   height: 100%;
   width: 1000%;
@@ -17637,7 +17637,7 @@ ul {
 
 .bg-offcanvas-gray::before {
   position: absolute;
-  background: #F5F3FC;
+  background: #ffffff;
   content: "";
   height: 100%;
   width: 1000%;
@@ -17650,7 +17650,7 @@ ul {
 
 .bg-offcanvas-gray-right::before {
   position: absolute;
-  background: #F5F3FC;
+  background: #ffffff;
   content: "";
   height: 100%;
   width: 1000%;
