@@ -17621,7 +17621,8 @@ ul {
 
 .bg-offcanvas::before {
   position: absolute;
-  background:  -webkit-gradient(linear, left top, left bottom, from(rgba(57, 67, 77, 0)), to(#F59446));
+   background:  repeating-linear-gradient(90deg, #f59446, transparent 6px 6px);
+
   content: "";
   height: 100%;
   width: 1000%;
