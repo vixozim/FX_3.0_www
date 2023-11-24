@@ -667,6 +667,19 @@ progress {
   }
 }
 
+@media (min-width: 1300px){
+
+  .p-md-44 {
+    padding: 1.8rem !important;
+  }
+}
+@media (min-width: 1540px){
+
+  .p-md-44 {
+    padding: 4rem !important;
+  }
+}
+
 .row {
   --bs-gutter-x: 2rem;
   --bs-gutter-y: 0;
