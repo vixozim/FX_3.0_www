@@ -17621,7 +17621,7 @@ ul {
 
 .bg-offcanvas::before {
   position: absolute;
-  background: #607080;
+  background:  -webkit-gradient(linear, left top, left bottom, from(rgba(57, 67, 77, 0)), to(#F59446));
   content: "";
   height: 100%;
   width: 1000%;
@@ -18570,7 +18570,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .nav-link-text {
   color: #607080;
   word-break: break-word;
-  font-weight: bold;
+  font-weight: 500;
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
