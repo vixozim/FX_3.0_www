@@ -9658,6 +9658,9 @@ fieldset:disabled .btn {
 .bg-primary {
   background-color: #F59446 !important;
 }
+.bg-gray {
+  background-color: #f5f5f5 !important;
+}
 
 .bg-secondary {
   background-color: #F59446 !important;
@@ -17625,6 +17628,20 @@ ul {
 .bg-offcanvas::before {
   position: absolute;
    background:   #f59446;
+
+  content: "";
+  height: 100%;
+  width: 1000%;
+  margin-left: -1000%;
+}
+
+.bg-offcanvas-grey {
+  position: relative;
+}
+
+.bg-offcanvas-grey::before {
+  position: absolute;
+   background:   #f5f5f5;
 
   content: "";
   height: 100%;
