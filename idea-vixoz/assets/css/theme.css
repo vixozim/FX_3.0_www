@@ -3653,14 +3653,14 @@ fieldset:disabled .btn {
 
 .btn-info {
   color: #FFFEFE;
-  background-color: #00A1FC;
-  border-color: #00A1FC;
+  background-color: #333333;
+  border-color: #333333;
 }
 
 .btn-info:hover {
   color: #FFFEFE;
-  background-color: #0089d6;
-  border-color: #0081ca;
+  background-color: #F59446;
+  border-color: #F59446;
 }
 
 .btn-check:focus + .btn-info, .btn-info:focus {
