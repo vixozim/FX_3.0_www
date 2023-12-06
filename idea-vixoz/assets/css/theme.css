@@ -18491,6 +18491,13 @@ ul {
   }
 }
 
+@media (max-width: 578px){
+  .p-sm-4 {
+    padding: 1.8rem !important;
+  }
+
+}
+
 .carousel-indicators {
   position: static;
   -webkit-box-pack: start;
