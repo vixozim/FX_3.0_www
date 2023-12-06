@@ -3658,9 +3658,9 @@ fieldset:disabled .btn {
 }
 
 .btn-info:hover {
-  color: #FFFEFE;
-  background-color: #F59446;
-  border-color: #F59446;
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn-check:focus + .btn-info, .btn-info:focus {
@@ -9548,7 +9548,7 @@ fieldset:disabled .btn {
 }
 
 .text-dark {
-  color: #262D33 !important;
+  color: #575353 !important;
 }
 
 .text-white {
