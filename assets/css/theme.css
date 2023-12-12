@@ -3581,6 +3581,18 @@ fieldset:disabled .btn {
   border-color: #607080;
 }
 
+.btn-secondary2 {
+  color: #FFFEFE;
+  background-color: #F59446;
+  border-color: #F59446;
+}
+
+.btn-secondary2:hover {
+  color: #F59446;
+  background-color: #fff;
+  border-color: #fff;
+}
+
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
   color: #FFFEFE;
   background-color: #d86812;
@@ -9662,6 +9674,9 @@ fieldset:disabled .btn {
   background-color: #f5f5f5 !important;
 }
 
+.bg-gray2 {
+  background-color:#607080 !important;
+}
 .bg-secondary {
   background-color: #F59446 !important;
 }
