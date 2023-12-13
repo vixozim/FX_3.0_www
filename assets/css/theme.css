@@ -18690,6 +18690,8 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   background: #f9ae75;
 }
 
+
+
 .solution_cards_box .solution_card:hover .solu_title h3,
 .solution_cards_box .solution_card:hover .solu_description p {
   color: #fff;
