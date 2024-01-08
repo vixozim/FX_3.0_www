@@ -193,6 +193,10 @@
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
+
+  .text-sm-center {
+    text-align: center !important;
+  }
 }
 
 /**

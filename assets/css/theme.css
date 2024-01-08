@@ -18804,10 +18804,16 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   .our_solution_category .solution_cards_box {
     flex: auto;
   }
+  .text-sm-center {
+    text-align: center !important;
+  }
 }
 @media only screen and (min-width: 768px) {
   .our_solution_category .solution_cards_box {
     flex: 1;
+  }
+  .text-lg-end {
+    text-align: right !important;
   }
 }
 @media only screen and (min-width: 1024px) {
