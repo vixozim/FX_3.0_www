@@ -3084,7 +3084,7 @@ textarea.form-control-lg {
 .form-floating > .form-control,
 .form-floating > .form-select {
   height: calc(3.5rem + 2px);
-  padding: 1rem 1.5rem;
+  padding: 1rem 0.5rem;
 }
 
 .form-floating > label {
