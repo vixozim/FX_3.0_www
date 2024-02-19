@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      
+        <!-- ===============================================-->
+        <!--    Document Title-->
+        <!-- ===============================================-->
+        <title>Datos Personales | Flexways</title>
+      
+      
+        <!-- ===============================================-->
+        <!--    Favicons-->
+        <!-- ===============================================-->
+       
+        <link rel="icon" href="assets/img/img/favicon.ico">
+        
+        <meta name="theme-color" content="#ffffff">
+      
+      
+        <!-- ===============================================-->
+        <!--    Stylesheets-->
+        <!-- ===============================================-->
+        <link href="assets/css/theme.css" rel="stylesheet" />
+        <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
+      
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+      
+        <link rel="stylesheet" type="text/css" href="assets/daterangepicker-master/daterangepicker.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+      <link rel="stylesheet" href="assets/js/jquery-timepicker-1.3.5/jquery.timepicker.min.css">
+      
+      </head>
+    <body>      
+        
+        
+    
+    <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+    <script>
+      var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"541152599877","welcomeMessage":"Hello","zIndex":999999,"btnColorScheme":"light"};
+      window.onload = () => {
+        _waEmbed(wa_btnSetting);
+      };
+    </script>
+
+
+<main class="main" id="top">
+<!-- WRAPPER -->
+
+
+
+
+
+   <!-- HEADER -->
+   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
+    <div class="container"><a class="navbar-brand" href="index.html"><img class="d-inline-block" src="assets/img/img/logo-flexways.png" width="100%" alt="logo" /></a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto pt-2 pt-lg-0 font-base">
+<!--        <li class="nav-item px-2"><a class="nav-link fw-medium active" aria-current="page" href="#"><img src="assets/img/img/CO2Neutral.png" width="150"></a></li> -->
+          
+          <li class="nav-item px-2"><a class="nav-link" href="#"> <span class="nav-link-icon text-600 me-1 fas fa-check"></span><span class="nav-link-text">Web Check In</span></a></li>
+          <li class="nav-item px-2"><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#iniciar-sesion"><span class="nav-link-icon text-600 me-1 fas fa-user"></span><span class="nav-link-text">Mis Reservas</span></a></li>
+          <li class="nav-item px-2"><a class="nav-link" href="afiliaciones.html"><span class="nav-link-icon text-600 me-1 fas fa-chevron-right"></span><span class="nav-link-text">Become a partern</span></a></li>
+          <li><a class="nav-item px-2 d-lg-none d-block"><a class="nav-link d-lg-none d-block" href="about-us.html">Sobre Nosotros</a></li>
+          <li><a class="nav-item px-2 d-lg-none d-block"><a class="nav-link d-lg-none d-block" href="afiliaciones.html">Afiliaciones</a></li>
+          <li><a class="nav-item px-2 d-lg-none d-block"><a class="nav-link d-lg-none d-block" href="sustentabilidad.html">Sustentabilidad</a></li>
+          <li><a class="nav-item px-2 d-lg-none d-block" ><a class="nav-link d-lg-none d-block" href="destinos.html">Destinos</a></li>
+        </ul>
+        <form>
+          <a class="btn btn-voyage-outline order-0" data-bs-toggle="modal" data-bs-target="#toCallModal"  href="#toCallModal"><span class="nav-link-icon text-primary me-1 fas fa-phone"></span><span class="text-primary">Llamar</span></a>
+          <button class="dropdown btn btn-glow px-2 text-800  order-1 order-lg-0 d-lg-inline-flex d-sm-none">
+          <a class=" dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="nav-link-icon fas fa-bars"></i></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about-us.html">Sobre Nosotros</a></li>
+              <li><a class="dropdown-item" href="afiliaciones.html">Afiliaciones</a></li>
+              <li><a class="dropdown-item" href="sustentabilidad.html">Sustentabilidad</a></li>
+              <li><a class="dropdown-item" href="destinos.html">Destinos</a></li>
+             
+            </ul>
+          
+        </button>
+          <a href="#monedas" class="px-2 text-800 order-1 order-lg-0 apiom_ul_monedas"  data-bs-toggle="modal" data-bs-target="#monedas" type="button">AR$</a>
+          <a href="#idiomas" class="px-2 text-800 order-1 order-lg-0 " type="button" href="#idiomas" id="idiomaSelector"  data-bs-toggle="modal" data-bs-target="#idiomas"><picture>
+            <source type="image/webp" srcset="https://flagcdn.com/20x15/us.webp, https://flagcdn.com/40x30/us.webp 2x, https://flagcdn.com/60x45/us.webp 3x">
+            <source type="image/png" srcset="https://flagcdn.com/20x15/us.png, https://flagcdn.com/40x30/us.png 2x, https://flagcdn.com/60x45/us.png 3x">
+            <img style="margin:0px;padding:0px" src="https://flagcdn.com/20x15/us.png" alt="English">
+        </picture></a>
+          
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- /HEADER -->
+
+    <!-- CONTENT AREA -->
+    <section class=" overflow-hidden" id="lugares">
+
+    
+
+        <!-- PAGE WITH SIDEBAR -->
+        <div class="container-fluid pt-1">
+
+
+          
+            <div class="container-xl">
+                <div class="row">
+                    <h3 class="text-primary fw-medium"><span class="trn">Ingrese sus datos para agilizar el proceso de entrega del vehículo.</span></h3>
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Reserva</button>
+                          <button class="nav-link text-dark" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Licencia</button>
+                          <button class="nav-link text-dark" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Garantía</button>
+                        </div>
+                      </nav>
+                      <div class="tab-content pb-3" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <div class="col-md-12">
+                                <h5 class="text-primary pt-3 pb-3"><span class="trn">DATOS DE LA RESERVA</span></h5>
+                                <div class="row">
+                 
+                                    
+                                    <!-- BREADCRUMBS -->
+        <div class="container-fluid pt-3 pb-3 border border-primary">
+            <div class="container">
+                <div class="row">
+                    <h4 id="apiom_confirmation_number pb-2" class="text-primary fw-light"><span class="trn">Reserva #12345</span></h5>
+                    <div class="col-md-6">
+                        <div class=" ">
+                       <h5 style="margin-top:0px;">22 <span style="padding-top:0px;">Jul</span> <span  class="text-primary"  style="padding-top:0px;">10:00 hs</span> <i class="fa fa-arrow-right espacio d-sm-none d-lg-inline-flex" style="padding-top:0px;"></i> <br class="d-lg-none d-sm-block"> 25 <span class="mes" style="padding-top:0px;">Jul </span> <span  class="text-primary"  style="padding-top:0px;">10:00 hs</span></h5>
+
+                   
+                       <span class="entrega">Entrega:</span> S. C. de Bariloche  <i class="fa fa-plane" style="color: #333333;"></i>
+                   <span class="entrega">Devolución:</span> S. C. de Bariloche  <i class="fa fa-plane" style="color: #333333;"></i>
+                      
+                   </ul>
+                   
+                   
+
+               </div>
+                    </div>
+                  
+                    <div class="col-md-3  col-12">
+                       
+                           
+                      
+                            <div class="form-group ">
+                                <label class="form-group trn">Datos del Vuelo (Opcionales)</label>
+                                <input type="text" class="form-control trn inputs-fw " id="" placeholder="Vuelo de llegada">
+                              
+                            </div>
+                          
+                    </div>
+                    <div class="form-group  col-md-3">
+                        <label class="form-group trn">Ver más Reservas</label>
+                        <select class="form-control trn inputs-fw " id="apiom_hora_desde">
+                            <option value=""> Seleccionar</option>
+                            <option value=""> fsdf234233123</option>
+                            <option value=""> 213123ssdfsd</option>
+                            </select>
+            
+                      
+                    </div>
+                   
+    
+                    </div>
+            </div>
+        </div>
+        <!-- /BREADCRUMBS -->
+       
+                                   
+                                    <h5 class="text-primary pt-3 pb-3"><span class="trn">DATOS DE CONTACTO (Obligatorios)</span></h5>
+                                    <div class="form-group  col-md-3">
+                                        
+                                        <input type="text" class="form-control trn inputs-fw my-2" id="" placeholder="Nombre*">
+                                      
+                                    </div>
+                                    <div class="form-group  col-md-3">
+                                        
+                                        <input type="text"  class="form-control trn inputs-fw my-2" id="" placeholder="Apellido*">
+                                      
+                                    </div>
+
+                                    <div class="form-group  col-md-3">
+                                        
+                                        <input type="text"  class="form-control trn inputs-fw my-2" id="" placeholder="Email*">
+                                      
+                                    </div>
+                                    <div class="form-group  col-md-3">
+                                        
+                                        <input type="text"  class="form-control trn inputs-fw my-2" id="" placeholder="Teléfono*">
+                                      
+                                    </div>
+
+                                    <h5 class="text-secondary pt-3 pb-3"><span class="trn">DATOS PERSONALES</span></h5>
+                                   
+                                    <div class="form-group  col-md-4">
+                                        
+                                        <input type="text"  class="form-control trn inputs-fw my-2" id="" placeholder="País de Nacimiento">
+                                      
+                                    </div>
+
+                                    <div class="form-group  col-md-4">
+                                        
+                                        <input type="text"  class="form-control trn inputs-fw my-2" id="" placeholder="Provincia">
+                                      
+                                    </div>
+                                    <div class="form-group  col-md-4">
+                                        
+                                        <input type="text"  class="form-control trn inputs-fw my-2" id="" placeholder="Ciudad">
+                                      
+                                    </div>
+                                    <div class="form-group  col-md-2">
+                                        <label class="form-group trn">Fecha de Nacimiento</label>
+                                        <input type="date" class="form-control trn inputs-fw my-2" id="" placeholder="">
+                                      
+                                    </div>
+                                    <div class="form-group  col-md-2">
+                                        <label class="form-group trn">Tipo de Documento</label>
+                                        <select class="form-control trn inputs-fw my-2" id="apiom_hora_desde">
+                                            <option value=""> DNI</option>
+                                            <option value=""> Pasaporte</option>
+                                            </select>
+ 
+                                      
+                                    </div>
+                                    <div class="form-group  col-md-2">
+                                        <label class="form-group trn">Número de Documento</label>
+                                        <input type="text"  class="form-control trn inputs-fw my-2" id="" placeholder="">
+                                      
+                                    </div>
+                                    <div class="form-group  col-md-3">
+                                        <label class="form-group trn">Frente de Doc.</label>
+                                        <input type="file"  class="form-control trn inputs-fw my-2" id="" placeholder="Frente de Documento">
+                                      
+                                    </div>
+                                    <div class="form-group  col-md-3">
+                                        <label class="form-group trn">Dorso de Doc.</label>
+                                        <input type="file"  class="form-control trn inputs-fw my-2" id="" placeholder="Dorso de Documento">
+                                      
+                                    </div>
+
+                                  
+                                   
+                                 
+
+                                   
+                                    
+                            </div>
+
+
+                            <div class="col-12 d-flex pt-2">
+                                <a data-bs-toggle="modal" data-bs-target="#guardar" href="#guardar"  class="btn btn-success fs-mobile-2 trn"><i class="fa fa-check" aria-hidden="true"></i><span class="trn"> Guardar</span></a> &nbsp;
+                            
+                              
+                          </div>
+                            </div>
+
+
+
+
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="col-md-12">
+                                <h5 class="text-primary pt-3 pb-3"><span class="trn">DATOS DE LICENCIA DE CONDUCIR (Opcionales para agilizar la entrega del auto)</span></h5>
+                                <div class="row">
+                 
+                                    
+                                    <div class="form-group col-md-3">
+                                        <label class="form-group trn">Nº de Licencia</label>
+                                        <input type="text" class="form-control  trn inputs-fw my-2" id="" placeholder="">
+                                      
+                                   
+                                </div>
+                                     <div class="form-group  col-md-3">
+                                        <label class="form-group trn">Fecha de Vencimiento</label>
+                                        <input type="date" class="form-control trn inputs-fw my-2" id="" placeholder="">
+                                      
+                                    </div>
+                                    <div class="form-group  col-md-2">
+                                        <label class="form-group trn">Frente de Doc.</label>
+                                        <input type="file"  class="form-control trn inputs-fw my-2" id="" placeholder="Frente de Documento">
+                                      
+                                    </div>
+                                    <div class="form-group  col-md-2">
+                                        <label class="form-group trn">Dorso de Doc.</label>
+                                        <input type="file"  class="form-control trn inputs-fw my-2" id="" placeholder="Dorso de Documento">
+                                      
+                                    </div>
+                                
+
+
+                                    </div>
+                                    <div class="col-12 d-flex pt-2">
+                                        <a data-bs-toggle="modal" data-bs-target="#guardar" href="#guardar"  class="btn btn-success fs-mobile-2 trn"><i class="fa fa-check" aria-hidden="true"></i><span class="trn"> Guardar</span></a> &nbsp;
+                                    
+                                  </div>
+
+
+                        </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            
+
+                            <div class="row no-gutters mt-3">
+
+                                
+
+
+
+                                <div class="col-md-5">
+                                    <h5 class="text-primary "><span class="trn">DATOS TARJETA DE CRÉDITO</span></h5>
+                                    <div class="row">
+                     
+                                        
+                                        <div class="form-group col-md-12">
+                                          
+                                            <input type="text" class="form-control apiom_method_username trn inputs-fw my-2" id="" placeholder="Nombre como figura en la tarjeta">
+                                          
+                                       
+                                    </div>
+                                         <div class="form-group  col-md-12">
+                                            
+                                            <input type="text" class="form-control apiom_method_dni trn inputs-fw my-2" id="" placeholder="DNI">
+                                          
+                                        </div>
+                                         <div class="form-group  col-md-12 ">
+                                            
+                                            <input type="text" class="form-control apiom_method_cardnumber trn inputs-fw my-2" id="" placeholder="Número de tarjeta">
+                                          
+                                        </div>
+                                        
+                                   
+                                        
+                                    
+                                        <div class="form-group col-md-4 ">
+                                       
+                                            <input type="text" class="form-control apiom_method_month trn inputs-fw my-2" id="" placeholder="Vto. Mes">
+                                           
+                                       
+                                        </div>
+                                       
+                                        <div class="form-group col-md-4 ">
+                                       
+                                            <input type="text" class="form-control apiom_method_year trn inputs-fw my-2" id="" placeholder="Vto. Año">
+                                           
+                                      
+                                        </div>
+                                     
+
+                                        <div class="form-group col-md-4  ">
+                                           <input type="text" class="form-control apiom_method_securitycode trn inputs-fw my-2" id="" placeholder="Cod. Seg.">
+                                            
+                                        
+                                        </div>
+                                        
+                                       
+                                        
+                                </div>
+                                </div>
+                           
+
+                                <div class="col-md-7 mt-2">
+                                    <div class="row pt-2">
+
+                                   
+                                    
+                                    <div class="col-md-6 p-0">
+                                    <img id="apiom_tarjeta_desktop" src="assets/img/img/tarjeta.png" class="img-fluid desktop">
+                                    </div>
+                                </div>
+              
+
+                             
+                           </div> 
+
+
+
+                         </div>
+
+                         <div class="row mt-4 mb-3 p-2 border-bottom border-top border-primary text-center">
+                                        
+                            <div class="col-md-12">
+                               <h6 class="text-primary">Sitio Seguro</h6>
+                                <p class="text-dark fs-1 trn">Todos los datos ingresados se guardan de forma segura y encriptada.</p>
+
+                            </div>
+
+                          
+
+                       
+                        </div>    
+
+                        <div class="col-12 d-flex pt-2">
+                            <a data-bs-toggle="modal" data-bs-target="#guardar" href="#guardar"  class="btn btn-success fs-mobile-2 trn"><i class="fa fa-check" aria-hidden="true"></i><span class="trn"> Guardar</span></a> &nbsp;
+                        
+                        
+                      </div>
+                        
+                        </div>
+                      </div>
+				
+                    <!-- CONTENT -->
+                
+                       
+                        
+                    <!-- /CONTENT -->
+
+                   
+
+                </div>
+            </div>
+        </div>
+        <!-- /PAGE WITH SIDEBAR -->
+
+        
+
+    </section>
+    <!-- /CONTENT AREA -->
+
+             
+
+     <!-- ============================================-->
+      <!-- <FOOTER> begin ============================-->
+        <section class="py-1 overflow-hidden">
+
+            <div class="container">
+              <div class="row">
+                <div class=" col-sm-4 col-lg-6 bg-gray bg-offcanvas-grey">
+                  <div class="py-lg-3"><img class="d-inline-block" src="assets/img/img/logo-flexways.png" alt="logo" />
+                    <div class="row">
+                      <div class="  col-lg-6">
+                    <ul class="list-unstyled mt-lg-4 mb-0">
+                      <li class="mb-2"><a class="text-800 fw-bold text-decoration-none" href="about-us.html">Sobre Nosotros</a></li>
+                      <li class="mb-2"><a class="text-800 fw-bold text-decoration-none" href="afiliaciones.html">Afiliaciones</a></li>
+                      <li class="mb-lg-2"><a class="text-800 fw-bold text-decoration-none" href="sustentabilidad.html">Sustentabilidad</a></li>
+                     
+                    </ul>
+                  </div>
+                  <div class="  col-lg-6">
+                    <ul class="list-unstyled mt-lg-4">
+                     
+                      <li class="mb-2"><a class="text-800 fw-bold text-decoration-none" href="destinos.html">Destinos</a></li>
+                   
+                      <li class="mb-2"><a class="text-800 fw-bold text-decoration-none" href="terminos-condiciones.html">Terminos & Condiciones</a></li>
+                    </ul>
+                  </div>
+                </div>
+                </div>
+                </div>
+                <div class="  col-lg-6 bg-primary bg-offcanvas-right">
+                  <div class="row p-3 py-lg-5 p-md-4">
+                    <div class="  col-lg-6">
+                    <p class="text-light"><i class="fas fa-phone-alt me-3"></i><span class="text-light">+54 9 11 5259-9877</span></p>
+                    <p class="text-light"><i class="fas fa-envelope me-3"></i><span class="text-light">contact@flexways.com</span></p>
+                 
+                    <div class="mt-3"><a href="https://www.facebook.com/FlexwaysCom" target="_blank"> <img class="me-3" src="assets/img/icons/facebook.svg" alt="..." /></a><a href="https://www.instagram.com/_flexways_en/" target="_blank"> <img class="me-3" src="assets/img/icons/instagram.svg" alt="..." /></a></div>
+                    </div>
+                    <div class="  col-lg-6">
+                    <img class="mt-0" src="assets/img/img/secure.png"/>
+                  </div>
+                    <div class="  col-lg-12">
+                    <p class="mt-3 text-light text-md-start"> © Flexways, all rights reserved. <br class="d-block d-lg-none"> Powered by <img class="d-inline-block" width="120" src="assets/img/img/logo-white.png"/></p>
+                  </div>
+                  </div>
+                 
+                </div> 
+                </div>
+              </div>
+            </div>
+            <!-- end of .container-->
+    
+          </section>
+        <!-- <FOOTER> close ============================-->
+        <!-- ============================================-->
+
+
+          <!-- MODAL -->
+          <div class="modal" id="m_login" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ingresar datos - Web cheking</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="m_nombre" placeholder="Nombre">
+                        <label for="m_nombre">Nombre</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="m_apellido" placeholder="Apellido">
+                        <label for="m_apellido">Apellido</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="m_codigo" placeholder="Código">
+                        <label for="m_codigo">Código</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                   <!--  <a type="button" class="btn btn-theme " id="b_enviarDatosModal">Enviar</a> -->
+                    <a class="btn btn-theme pull-right btn-cancel btn-theme-dark" id="b_enviarDatosModal" href="#">Enviar</a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+      <div id="monedas" class="modal fade " aria-modal="true" role="dialog" >
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="font-weight-600 trn" keylang="Seleccionar Idioma">Seleccione una Moneda</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-lg-start">
+      <div class=" m-0">
+        <a href="#" class="dropdown-item convert"  data-to-currency="ARS" id="ARS">$ (ARS)</a>
+        <a href="#" class="dropdown-item convert"  data-to-currency="USD" id="USD">US$ (USD)</a>
+        <a href="#" class="dropdown-item convert"  data-to-currency="EUR" id="EUR">€ (EUR)</a>
+       
+    </div>
+    </div>
+    </div>
+            </div></div>
+            </div>
+
+
+
+      <div id="idiomas" class="modal fade " aria-modal="true" role="dialog" >
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="font-weight-600 trn" keylang="Seleccionar Idioma">Select Language</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-lg-start">
+                        <div class="col-lg-3 col-6">
+                <ul class="list-unstyled">
+                    <li class="mb-4"><a class="lang_selector" id="idiomaES" href="#" data-value="ES">
+                            <picture>
+                                <source type="image/webp" srcset="https://flagcdn.com/40x30/es.webp,
+                                https://flagcdn.com/40x30/es.webp 2x,
+                                https://flagcdn.com/60x45/es.webp 3x">
+                                <source type="image/png" srcset="https://flagcdn.com/40x30/es.png,
+                                https://flagcdn.com/40x30/es.png 2x,
+                                https://flagcdn.com/60x45/es.png 3x">
+                                <img src="https://flagcdn.com/40x30/es.png" width="30" height="20" alt="Español">
+                            </picture>
+                            <span>Español</span>&nbsp;<i class="fa fa-check language-check-icon" style="display: none;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div><div class="col-lg-3 col-6">
+                <ul class="list-unstyled">
+                    <li class="mb-4"><a class="lang_selector idioma-activo" id="idiomaEN" href="#" data-value="EN">
+                            <picture>
+                                <source type="image/webp" srcset="https://flagcdn.com/40x30/us.webp,
+                                https://flagcdn.com/40x30/us.webp 2x,
+                                https://flagcdn.com/60x45/us.webp 3x">
+                                <source type="image/png" srcset="https://flagcdn.com/40x30/us.png,
+                                https://flagcdn.com/40x30/us.png 2x,
+                                https://flagcdn.com/60x45/us.png 3x">
+                                <img src="https://flagcdn.com/40x30/us.png" width="30" height="20" alt="English">
+                            </picture>
+                            <span>English</span>&nbsp;<i class="fa fa-check language-check-icon" style=""></i>
+                        </a>
+                    </li>
+                </ul>
+            </div><div class="col-lg-3 col-6">
+                <ul class="list-unstyled">
+                    <li class="mb-4"><a class="lang_selector" id="idiomaPT" href="#" data-value="PT">
+                            <picture>
+                                <source type="image/webp" srcset="https://flagcdn.com/40x30/br.webp,
+                                https://flagcdn.com/40x30/br.webp 2x,
+                                https://flagcdn.com/60x45/br.webp 3x">
+                                <source type="image/png" srcset="https://flagcdn.com/40x30/br.png,
+                                https://flagcdn.com/40x30/br.png 2x,
+                                https://flagcdn.com/60x45/br.png 3x">
+                                <img src="https://flagcdn.com/40x30/br.png" width="30" height="20" alt="Português">
+                            </picture>
+                            <span>Português</span>&nbsp;<i class="fa fa-check language-check-icon" style="display: none;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div><div class="col-lg-3 col-6">
+                <ul class="list-unstyled">
+                    <li class="mb-4"><a class="lang_selector" id="idiomaFR" href="#" data-value="FR">
+                            <picture>
+                                <source type="image/webp" srcset="https://flagcdn.com/40x30/fr.webp,
+                                https://flagcdn.com/40x30/fr.webp 2x,
+                                https://flagcdn.com/60x45/fr.webp 3x">
+                                <source type="image/png" srcset="https://flagcdn.com/40x30/fr.png,
+                                https://flagcdn.com/40x30/fr.png 2x,
+                                https://flagcdn.com/60x45/fr.png 3x">
+                                <img src="https://flagcdn.com/40x30/fr.png" width="30" height="20" alt="Français">
+                            </picture>
+                            <span>Français</span>&nbsp;<i class="fa fa-check language-check-icon" style="display: none;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div><div class="col-lg-3 col-6">
+                <ul class="list-unstyled">
+                    <li class="mb-4"><a class="lang_selector" id="idiomaEL" href="#" data-value="EL">
+                            <picture>
+                                <source type="image/webp" srcset="https://flagcdn.com/40x30/gr.webp,
+                                https://flagcdn.com/40x30/gr.webp 2x,
+                                https://flagcdn.com/60x45/gr.webp 3x">
+                                <source type="image/png" srcset="https://flagcdn.com/40x30/gr.png,
+                                https://flagcdn.com/40x30/gr.png 2x,
+                                https://flagcdn.com/60x45/gr.png 3x">
+                                <img src="https://flagcdn.com/40x30/gr.png" width="30" height="20" alt="Ελληνικά">
+                            </picture>
+                            <span>Ελληνικά</span>&nbsp;<i class="fa fa-check language-check-icon" style="display: none;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div><div class="col-lg-3 col-6">
+                <ul class="list-unstyled">
+                    <li class="mb-4"><a class="lang_selector" id="idiomaDE" href="#" data-value="DE">
+                            <picture>
+                                <source type="image/webp" srcset="https://flagcdn.com/40x30/de.webp,
+                                https://flagcdn.com/40x30/de.webp 2x,
+                                https://flagcdn.com/60x45/de.webp 3x">
+                                <source type="image/png" srcset="https://flagcdn.com/40x30/de.png,
+                                https://flagcdn.com/40x30/de.png 2x,
+                                https://flagcdn.com/60x45/de.png 3x">
+                                <img src="https://flagcdn.com/40x30/de.png" width="30" height="20" alt="Deutsch">
+                            </picture>
+                            <span>Deutsch</span>&nbsp;<i class="fa fa-check language-check-icon" style="display: none;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div><div class="col-lg-3 col-6">
+                <ul class="list-unstyled">
+                    <li class="mb-4"><a class="lang_selector" id="idiomaIT" href="#" data-value="IT">
+                            <picture>
+                                <source type="image/webp" srcset="https://flagcdn.com/40x30/it.webp,
+                                https://flagcdn.com/40x30/it.webp 2x,
+                                https://flagcdn.com/60x45/it.webp 3x">
+                                <source type="image/png" srcset="https://flagcdn.com/40x30/it.png,
+                                https://flagcdn.com/40x30/it.png 2x,
+                                https://flagcdn.com/60x45/it.png 3x">
+                                <img src="https://flagcdn.com/40x30/it.png" width="30" height="20" alt="Italiano">
+                            </picture>
+                            <span>Italiano</span>&nbsp;<i class="fa fa-check language-check-icon" style="display: none;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div><div class="col-lg-3 col-6">
+                <ul class="list-unstyled">
+                    <li class="mb-4"><a class="lang_selector" id="idiomaIS" href="#" data-value="IS">
+                            <picture>
+                                <source type="image/webp" srcset="https://flagcdn.com/40x30/is.webp,
+                                https://flagcdn.com/40x30/is.webp 2x,
+                                https://flagcdn.com/60x45/is.webp 3x">
+                                <source type="image/png" srcset="https://flagcdn.com/40x30/is.png,
+                                https://flagcdn.com/40x30/is.png 2x,
+                                https://flagcdn.com/60x45/is.png 3x">
+                                <img src="https://flagcdn.com/40x30/is.png" width="30" height="20" alt="Ísland">
+                            </picture>
+                            <span>Ísland</span>&nbsp;<i class="fa fa-check language-check-icon" style="display: none;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div><div class="col-lg-3 col-6">
+                <ul class="list-unstyled">
+                    <li class="mb-4"><a class="lang_selector" id="idiomaHR" href="#" data-value="HR">
+                            <picture>
+                                <source type="image/webp" srcset="https://flagcdn.com/40x30/hr.webp,
+                                https://flagcdn.com/40x30/hr.webp 2x,
+                                https://flagcdn.com/60x45/hr.webp 3x">
+                                <source type="image/png" srcset="https://flagcdn.com/40x30/hr.png,
+                                https://flagcdn.com/40x30/hr.png 2x,
+                                https://flagcdn.com/60x45/hr.png 3x">
+                                <img src="https://flagcdn.com/40x30/hr.png" width="30" height="20" alt="Hrvatska">
+                            </picture>
+                            <span>Hrvatska</span>&nbsp;<i class="fa fa-check language-check-icon" style="display: none;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div><div class="col-lg-3 col-6">
+                <ul class="list-unstyled">
+                    <li class="mb-4"><a class="lang_selector" id="idiomaPL" href="#" data-value="PL">
+                            <picture>
+                                <source type="image/webp" srcset="https://flagcdn.com/40x30/pl.webp,
+                                https://flagcdn.com/40x30/pl.webp 2x,
+                                https://flagcdn.com/60x45/pl.webp 3x">
+                                <source type="image/png" srcset="https://flagcdn.com/40x30/pl.png,
+                                https://flagcdn.com/40x30/pl.png 2x,
+                                https://flagcdn.com/60x45/pl.png 3x">
+                                <img src="https://flagcdn.com/40x30/pl.png" width="30" height="20" alt="Polski">
+                            </picture>
+                            <span>Polski</span>&nbsp;<i class="fa fa-check language-check-icon" style="display: none;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div><div class="col-lg-3 col-6">
+                <ul class="list-unstyled">
+                    <li class="mb-4"><a class="lang_selector" id="idiomaRO" href="#" data-value="RO">
+                            <picture>
+                                <source type="image/webp" srcset="https://flagcdn.com/40x30/ro.webp,
+                                https://flagcdn.com/40x30/ro.webp 2x,
+                                https://flagcdn.com/60x45/ro.webp 3x">
+                                <source type="image/png" srcset="https://flagcdn.com/40x30/ro.png,
+                                https://flagcdn.com/40x30/ro.png 2x,
+                                https://flagcdn.com/60x45/ro.png 3x">
+                                <img src="https://flagcdn.com/40x30/ro.png" width="30" height="20" alt="Română">
+                            </picture>
+                            <span>Română</span>&nbsp;<i class="fa fa-check language-check-icon" style="display: none;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+	 
+<div id="iniciar-sesion" class="modal fade">
+  <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        
+          
+    
+    <div class="modal-header">
+                                 
+                                  <h5 class="text-uppercase italic text-medium font-weight-600 trn">Mis Reservas </h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row justify-content-md-center">
+
+                                  <div class="col-md-12">
+                                      <div class="padding-30px background-white border-1 border-grey-1">
+                                          <form>
+                                              <div class="form-floating mb-3">
+                                                  <input type="text" class="form-control register" id="myRentName" name="myRentName" placeholder="Nombre">
+                                                  <label for="r_nombre" class="trn" keylang="Nombre">Nombre</label>
+                                              </div>
+                                              <div class="form-floating mb-3">
+                                                  <input type="text" class="form-control register" id="myRentSurname" name="myRentSurname" placeholder="Apellido">
+                                                  <label for="r_apellido" class="trn" keylang="Apellido">Apellido</label>
+                                              </div>
+                                              <div class="form-floating mb-3">
+                                                  <input type="text" class="form-control register" id="myRentCode" name="myRentCode" placeholder="Código reserva">
+                                                  <label for="r_codigo" class="trn" keylang="Código reserva">Código reserva</label>
+                                              </div>
+              
+                                              <div class="form-group  pt-1">
+                                                  <a href="#" id="apiom_submit_login" class="mt-3 btn btn-success btn-block trn w-100" keylang="Encontrar mi Reserva">Encontrar mi Reserva</a>
+                                              </div>
+                                          </form>
+                                      </div>
+                                  </div>
+                              </div>
+          </div>
+      </div>
+  </div>
+ </div>
+
+
+ 
+ 
+ <div class="modal fade" id="toCallModal" >
+  <div class="modal-dialog" >
+    <div class="modal-content">
+      <div class="modal-header align-items-center">
+		<h5 class="font-weight-600 trn" keylang="Confirmación de llamada">Confirmación de llamada</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+        <span class="trn" keylang="Para continuar, por favor, indíquenos si desea iniciar una llamada por Internet.">Para continuar, por favor, indíquenos si desea iniciar una llamada por Internet.</span>  <span class="trn" keylang="Tendrá que conceder permisos para el uso del micrófono.">Tendrá que conceder permisos para el uso del micrófono.</span>
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success trn" id="confirmCall" keylang="Llamar">Llamar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="guardar" class="modal fade">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          
+            
+            
+            <div class="modal-header">
+                                   
+                                    <h5 class="text-uppercase italic text-medium font-weight-600 trn">No se guardaron cambios</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+              <div class="row justify-content-md-center">
+
+                <form >
+                    <div class="row g-3">
+                       
+                        
+                        <p class="fs-mobile-8 fs-5 text-primary text-center trn">Detectamos cambios sin guardar. ¿Desea guardar los cambios?</p>
+
+                       
+                      
+                        <div class="col-12  pt-2 text-end">
+                            <a data-bs-toggle="modal" data-bs-target="#guardar" href="#guardar"  class="btn btn-success fs-mobile-2 trn"><i class="fa fa-check" aria-hidden="true"></i><span class="trn"> Guardar</span></a> &nbsp;
+                        
+                            <a  class="fs-7 fs-mobile-2  trn btn btn-md btn-secondary "> Continuar sin guardar</a>
+                      </div>
+                        
+                       
+            
+                    </div>
+            
+                 
+                </form>
+
+              
+                
+            
+
+            </div>
+            </div>
+        </div>
+    </div>
+     </div>
+
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="vendors/@popperjs/popper.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/is/is.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="vendors/fontawesome/all.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
+
+
+
+   
+    
+
+    <script type="text/javascript">
+        $(function() {
+        
+          $('input[name="datefilter"]').daterangepicker({
+              autoUpdateInput: false,
+              locale: {
+                  cancelLabel: 'Clear'
+              }
+          });
+        
+          $('input[name="datefilter"]').on('apply.daterangepicker', function(ev, picker) {
+              $(this).val(picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
+          });
+        
+          $('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
+              $(this).val('');
+          });
+        
+        });
+        </script>
+    
+    <script>
+        var inputEle = document.getElementById('.timeInput');
+    
+    
+    function onTimeChange() {
+      var timeSplit = inputEle.value.split(':'),
+        hours,
+        minutes,
+        meridian;
+      hours = timeSplit[0];
+      minutes = timeSplit[1];
+      if (hours > 12) {
+        meridian = 'PM';
+        hours -= 12;
+      } else if (hours < 12) {
+        meridian = 'AM';
+        if (hours == 0) {
+          hours = 12;
+        }
+      } else {
+        meridian = 'PM';
+      }
+      alert(hours + ':' + minutes + ' ' + meridian);
+    }
+        </script>
+   
+
+
+
+
+  <script>
+      // if viewportWidth width <= 991
+      if(window.innerWidth <= 991){
+        // load mobile script
+        loadScriptFile('https://www.vixoz.com/externo/clientes/217flexways2022/js/sticky-form-mobile.js');
+      }
+      else{ // viewportWidth width > 991
+        // load desktop script
+        loadScriptFile('https://www.vixoz.com/externo/clientes/217flexways2022/js/sticky-form.js');
+      }
+      
+      // loadScriptFile func
+      function loadScriptFile(src){
+        // create element <script>
+        const $script = $('<script>');
+        // add type attribute
+        $script.attr('type', 'text/javascript');
+        // add src attribute
+        $script.attr('src', src);
+        // append the <script> element to <head>
+        $script.appendTo('body');
+      }
+      </script>
+
+
+
+<script>
+
+window.onresize = function() {
+    if (window.innerHeight <= 767) { /* Reorder divs for mobile cases */ }        
+    if (window.innerWidth > 767) {  /* Reorder divs for desktop cases */ }
+}
+
+
+
+</script>
+
+</body>
+</html>
